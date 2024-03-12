@@ -7,18 +7,18 @@ import java.util.Timer;
 
 import javax.swing.*;
 
-public class Sample extends JFrame {
+public class Time extends JFrame {
     private static final long serialVersionUID = 1L;
 
     public static void main(String args[]) {
-        Sample sample1 = new Sample();
-        sample1.setBounds(100,100,200,100);
-        sample1.setVisible(true);
-    	sample1.setResizable(false);
-    	sample1.setAlwaysOnTop(true);
+        Time time = new Time();
+        time.setBounds(100,100,200,100);
+        time.setVisible(true);
+    	time.setResizable(false);
+    	time.setAlwaysOnTop(true);
     }
 
-    public Sample() {
+    public Time() {
         TimeLabel label = new TimeLabel();
         this.add(label,BorderLayout.CENTER);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

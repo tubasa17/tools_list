@@ -1,2 +1,2 @@
 @echo off
-start /MIN java time.java
+start /MIN java Time.java
